@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace autok
 {
@@ -10,7 +11,11 @@ namespace autok
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("anyad");
+
+
+            StreamReader sr = new StreamReader("auto.csv");
+
+
         }
     }
 }
