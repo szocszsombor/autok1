@@ -14,7 +14,7 @@ namespace autok
 
 
             StreamReader sr = new StreamReader("auto.csv");
-
+            Console.WriteLine("az egesz ora elment azzal h a gitet setupoltam...");
 
         }
     }
