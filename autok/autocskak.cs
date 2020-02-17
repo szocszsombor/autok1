@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace autok
 {
@@ -15,7 +16,19 @@ namespace autok
         private string _uzemanyag;
         private int _ára;
 
+        void asd()
+        {
+            using(StreamReader sr = new StreamReader("autok.csv"))
+            {
+                string sor;
+                while ((sor = sr.ReadLine()) != null);
+                {
 
+                }
+            }
+        }
+
+        //List<> xdautok = new List<>();
 
     }
 }
